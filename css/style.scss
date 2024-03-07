@@ -2,12 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color:#87999e;
 }
+
+h1{
+    margin-bottom: 20px;
+}
+
 
 .container {
     text-align: center;
     margin-top: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -18,8 +27,31 @@ button {
     color: #fff;
     border: none;
     border-radius: 5px;
+    margin: 20px 0 20px 0;
 }
 
 button:hover {
     background-color: #0056b3;
+}
+
+.forslag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+
+        p, li{
+            text-align: left;
+            list-style: none;
+        }
+
+        li{
+            padding-left: 20px;
+        }
+
+        img{
+            height: 300px;
+            width: auto;
+            padding-left: 20px;
+        }
 }
